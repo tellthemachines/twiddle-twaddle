@@ -1,0 +1,17 @@
+{
+  "name": "languageplay",
+  "version": "1.0.0",
+  "description": "experiments in generative text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rita": "^1.3.85"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
