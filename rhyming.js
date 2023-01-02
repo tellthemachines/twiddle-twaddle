@@ -48,7 +48,7 @@ fs.lstat(inputFile, (err,stats) => {
      const result = makeWordLists(data)
      console.log(RiTa.similarBySound("hello"))
      if (output !== 'console') {
-       fs.writeFile(output, result, (err) => {
+       fs.writeFile(output, JSON.stringify(result), (err) => {
          if (err) throw err;
          console.log('File created!');
         })
